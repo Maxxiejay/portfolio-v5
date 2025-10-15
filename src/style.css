@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom colors */
+  --color-primary: #915EFF;
+  --color-dark: #050816;
+
+  /* Custom breakpoint */
+  --breakpoint-md: 800px;
+}
+
+
+@layer base {
+
+    ul,
+    ol {
+        list-style: revert;
+    }
+}
+
+:root {
+    --primary: rgb(145, 94, 255);
+    /* --primary: #c73aff; */
+    --dark: rgb(5, 8, 22);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(./assets/fonts/poppins-regular.ttf);
+}
+
+@font-face {
+    font-family: catamaran;
+    src: url(./assets/fonts/catamaran-regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: catamaran;
+}
+
+li::marker {
+    color: var(--primary);
+    font-size: 1.3rem;
+}
+
+section{
+    width: 100%;
+}
+
+.btn {
+    background: var(--primary);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+     
+    margin: 1rem;
+    font-weight: 500;
+    /* width: fit-content; */
+}
+
+.btn-alt {
+    height: fit-content;
+    background: transparent;
+    color: var(--primary);
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--primary);
+    border-radius: 0.5rem;
+     
+    /* margin: 1rem; */
+    font-weight: 500;
+}
+
+.btn-alt:hover {
+    background: var(--primary);
+    color: white;
+}
