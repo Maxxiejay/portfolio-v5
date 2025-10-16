@@ -3,7 +3,6 @@
     id="contact"
     class="w-full flex flex-col space-y-8 items-center justify-center"
   >
-    <!-- <PageBlocker content="Desktop view is temporarily unavailable. Please switch to mobile" /> -->
     <PageHeader title="Let's Connect" />
     <p class="text-white md:self-start">
       Interested in collaborating on a project or just want to say hello? Feel
@@ -99,7 +98,6 @@
 
 <script setup>
   import PageHeader from "@/components/PageHeader.vue"
-  import PageBlocker from "@/components/PageBlocker.vue"
 </script>
 
 <style>

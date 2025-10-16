@@ -1,8 +1,5 @@
 <template>
   <div id="about" class=" h-full flex flex-col gap-10 items-center px-5 pb-20">
-    <!-- <PageBlocker
-      content="Desktop view is temporarily unavailable. Please switch to mobile"
-    /> -->
     <PageHeader title="About Me" />
     <section class="description flex flex-col gap-2">
       <h2 class="text-2xl text-primary font-semibold">Fullstack Developer</h2>
@@ -190,7 +187,6 @@
 
 <script setup>
 import PageHeader from "@/components/PageHeader.vue";
-import PageBlocker from "@/components/PageBlocker.vue";
 import ServicesCard from "@/components/cards/ServicesCard.vue";
 import ExpCard from "@/components/cards/ExpCard.vue";
 import PlainCard from "@/components/cards/PlainCard.vue";

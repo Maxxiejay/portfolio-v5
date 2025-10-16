@@ -1,0 +1,94 @@
+<template>
+    <div v-show="visible" class="fixed inset-0 flex items-center justify-center bg-[#050816] z-[9999]">
+        <div class="relative loader">
+        </div>
+    </div>
+</template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+
+const visible = ref(true);
+
+onMounted(() => {
+    // Handle case where page is already loaded
+    if (document.readyState === 'complete') {
+        setTimeout(() => (visible.value = false), 600);
+    } else {
+        // Wait until everything (fonts, images, etc.) is fully loaded
+        window.addEventListener("load", () => {
+            setTimeout(() => (visible.value = false), 600); // 0.6s fade duration
+        });
+    }
+});
+</script>
+
+<style scoped>
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 50px;
+    height: 28px;
+    --_g: no-repeat radial-gradient(farthest-side, var(--color-primary) 94%, #0000);
+    background:
+        var(--_g) 50% 0,
+        var(--_g) 100% 0;
+    background-size: 12px 12px;
+    position: relative;
+    animation: l23-0 1.5s linear infinite;
+}
+
+.loader:before {
+    content: "";
+    position: absolute;
+    height: 12px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: var(--color-primary);
+    left: 0;
+    top: 0;
+    animation:
+        l23-1 1.5s linear infinite,
+        l23-2 0.5s cubic-bezier(0, 200, .8, 200) infinite;
+}
+
+@keyframes l23-0 {
+
+    0%,
+    31% {
+        background-position: 50% 0, 100% 0
+    }
+
+    33% {
+        background-position: 50% 100%, 100% 0
+    }
+
+    43%,
+    64% {
+        background-position: 50% 0, 100% 0
+    }
+
+    66% {
+        background-position: 50% 0, 100% 100%
+    }
+
+    79% {
+        background-position: 50% 0, 100% 0
+    }
+
+    100% {
+        transform: translateX(calc(-100%/3))
+    }
+}
+
+@keyframes l23-1 {
+    100% {
+        left: calc(100% + 7px)
+    }
+}
+
+@keyframes l23-2 {
+    100% {
+        top: -0.1px
+    }
+}
+</style>
