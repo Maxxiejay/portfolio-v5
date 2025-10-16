@@ -5,7 +5,7 @@
     <div id="project-cards">
       <ProjectCard v-for="project in projects" :key="project.id" :github="project.github" :siteUrl="project.siteUrl"
         :siteName="project.siteName">
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col justify-between h-full gap-4">
           <div class="image">
             <img :src="project.image" :alt="project.title" />
           </div>

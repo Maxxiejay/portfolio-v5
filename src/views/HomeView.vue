@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-full md:flex md:justify-evenly items-center">
+  <div class="relative w-full md:flex md:justify-start items-start">
     <div
       id="home_intro"
       class="flex justify-center flex-col max-w-xl p-6 text-start md:self-start"
