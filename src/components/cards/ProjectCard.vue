@@ -1,6 +1,6 @@
 <template>
     <div id="project-card" class="relative mx-auto h-full flex flex-col justify-between">
-        <div class="icons absolute top-2 flex justify-between w-full">
+        <div class="icons absolute left-0 top-2 flex justify-between w-full">
             <a :href="github">
                 <i class="fab fa-github"></i>
             </a>

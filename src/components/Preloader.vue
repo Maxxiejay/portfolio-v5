@@ -1,5 +1,5 @@
 <template>
-    <div v-show="visible" class="fixed inset-0 flex items-center justify-center bg-[#050816] z-[9999]">
+    <div v-show="visible" class="fixed inset-0 flex items-center justify-center bg-[#050816] z-[9999999]">
         <div class="relative loader">
         </div>
     </div>
