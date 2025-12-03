@@ -10,7 +10,7 @@
         optimizing performance, I'm committed to delivering high-quality
         solutions that exceed expectations.
       </p>
-      <button @click="download('max_resume5.pdf')" class="btn-alt w-fit">Resume</button>
+      <button @click="download('max_resume6.pdf')" class="btn-alt w-fit">Resume</button>
     </section>
     <section id="services">
       <PageHeader subHeading="What I Do" />
@@ -87,7 +87,7 @@
             </li>
           </ul>
         </ExpCard>
-        <ExpCard title="Full-Stack developer" org="Pilot Ai" date="May 2025 - June 2025">
+        <ExpCard title="Frontend developer" org="Pilot Ai" date="May 2025 - June 2025">
           <ul class="flex flex-col space-y-4 mt-4">
             <li>
               Developed a minimal and intuitive frontend using React.js and TailwindCSS
