@@ -60,7 +60,7 @@
         </ExpCard>
         <ExpCard title="php tutor" org="Litecode hub" date="Jan 2025 - March 2025">
         </ExpCard>
-        <ExpCard title="lead developer" org="Cowrite" date="Dec 2024 - July 2025">
+        <ExpCard title="full-stack developer" org="Cowrite" date="Dec 2024 - July 2025">
           <ul class="flex flex-col space-y-4 mt-4">
             <li>
               Developed a clean and minimal frontend using Vue.js and TailwindCSS
@@ -74,7 +74,43 @@
             </li>
           </ul>
         </ExpCard>
-        <ExpCard title="lead backend dev" org="Realestway" date="Feb 2025 - present">
+        <ExpCard title="Full-Stack developer" org="OpTrack" date="June 2025 - present">
+          <ul class="flex flex-col space-y-4 mt-4">
+            <li>
+              Developed a clean and scalable backend using Node.js/Express.
+            </li>
+            <li>
+              Developed a scalable and minimal frontend using Vue.js and TailwindCSS
+            </li>
+            <li>
+              Deployed and managed the application on hosting providers and also conducted maintenance regularly.
+            </li>
+          </ul>
+        </ExpCard>
+        <ExpCard title="Full-Stack developer" org="Pilot Ai" date="May 2025 - June 2025">
+          <ul class="flex flex-col space-y-4 mt-4">
+            <li>
+              Developed a minimal and intuitive frontend using React.js and TailwindCSS
+            </li>
+            <li>
+              Regularly updated and maintained the application to ensure optimal performance and user experience.
+            </li>
+          </ul>
+        </ExpCard>
+        <ExpCard title="Full-Stack developer" org="Travella More" date="March 2025 - July 2025">
+          <ul class="flex flex-col space-y-4 mt-4">
+            <li>
+              Developed a clean, robust and scalable backend using Node.js/Express.
+            </li>
+            <li>
+              Developed a clean and intuitive frontend using Vue.js and TailwindCSS
+            </li>
+            <li>
+              Deployed and managed the application on hosting providers and also conducted maintenance regularly.
+            </li>
+          </ul>
+        </ExpCard>
+        <ExpCard title="backend developer" org="Realestway" date="Feb 2025 - present">
           <ul class="flex flex-col space-y-4 mt-4">
             <li>
               Developed a clean, robust and scalable backend using Laravel.

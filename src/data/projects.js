@@ -23,7 +23,7 @@ const projects = [
       "Pilot Ai is a Ai assistant that aims to closely interract with the user and understand gain context of by\n            reading the user's screen to provide better answers and solutions particular to that user",
     image: new URL('../assets/images/pilot_ai.png', import.meta.url).href,
     tags: [
-      { name: 'Vue.js', class: 'border-green-600 text-green-600' },
+      { name: 'React.js', class: 'border-blue-600 text-blue-600' },
       { name: 'Gemini Ai', class: 'border-purple-600 text-purple-600' },
       { name: 'TailwindCSS', class: 'border-blue-400 text-blue-400' },
     ],
@@ -38,7 +38,7 @@ const projects = [
       'LiveTrack is an app that aims to improve order tracking experience between users and dispatch riders by providing live location feedback',
     image: new URL('../assets/images/livetrack.png', import.meta.url).href,
     tags: [
-      { name: 'Vue.js', class: 'border-green-600 text-green-600' },
+      { name: 'React.js', class: 'border-blue-600 text-blue-600' },
       { name: 'Node.js/Express', class: 'border-yellow-600 text-yellow-600' },
       { name: 'TailwindCSS', class: 'border-blue-400 text-blue-400' },
     ],
